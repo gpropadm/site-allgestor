@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/login(.*)",
+      "destination": "https://allgestor-pj9lcfa5n-gprop.vercel.app$1"
+    },
+    {
+      "source": "/dashboard(.*)",
+      "destination": "https://allgestor-pj9lcfa5n-gprop.vercel.app$1"
+    },
+    {
+      "source": "/owners(.*)",
+      "destination": "https://allgestor-pj9lcfa5n-gprop.vercel.app$1"
+    },
+    {
+      "source": "/properties(.*)",
+      "destination": "https://allgestor-pj9lcfa5n-gprop.vercel.app$1"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "https://allgestor-pj9lcfa5n-gprop.vercel.app/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
